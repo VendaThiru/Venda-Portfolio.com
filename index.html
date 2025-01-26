@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+        <!-- Navigation -->
+        <header class="header">
+            <a href="#home" class="logo">Portfolio</a>
+            <nav class="navbar" id="navbar">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <div class="toggle" id="toggle" onclick="toggleMenu()">☰</div>
+        </header>
+
+        <!-- Home -->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hi, Myself</h3>
+                <h1>Venda Thirunavukkarasu</h1>
+                <h3>And I'm a <span class="multiple-text"></span></h3>
+                <p>Looking forward to gaining valuable technical knowledge through different assignments and collaborating with top-tier professionals. Seeking challenges that will help me achieve both my personal and professional goals.</p>
+                <div class="social-media">
+                    <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-square-whatsapp"></i></a>
+                    <a href="https://www.facebook.com/VendaThiru" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/advika_thiru/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://x.com/AdvikaThir69469" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/vendathiru/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/VendaThiru" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <!-- <a href="#" class="btn">Download Resume</a> -->
+                <a href="path-to-your-resume.pdf" class="btn" download="Venda Resume.pdf">Download Resume</a>
+
+            </div>
+            <div class="home-img">
+                <img src="Venda.jpeg" alt="Profile image">
+            </div>
+        </section>
+
+         <!-- About -->
+         <section class="about" id="about">
+            <div class="about-img">
+                <img id="about-img" src="venda portfolio1.jpeg" alt="About Image">
+            </div>
+            <div class="about-content">
+                <h2 class="heading">ABOUT <span>Me</span></h2>
+                <h3>Full-stack Developer</h3>
+                <p> <span>Java Standard Edition (JSE):</span> I have a strong foundation in core Java concepts, 
+                    including OOP principles like encapsulation, inheritance, polymorphism, and abstraction. 
+                    I am skilled in working with constructors, method overloading and overriding, exception handling,
+                     multithreading, and Java Collections Framework. My expertise includes advanced Java features 
+                     such as lambda expressions, streams, functional interfaces, and default methods from Java 8. 
+                     Additionally, I have experience with recursion, type casting, access modifiers, Singleton patterns, 
+                     multilevel inheritance, interfaces, and synchronization, enabling me to build efficient and scalable applications </p>
+                <p><span>Java Enterprise Edition (JEE):</span> Proficient in building enterprise-grade applications using the latest technologies.</p>
+                <p>Proficient in HTML5, CSS3, Bootstrap, and JavaScript (ES6+) </p>
+                    <p> <span>React JS: </span> Skilled in building dynamic UI components, 
+                        state with hooks and Redux, implementing client-side 
+                        routing and integrating RESTful APIs. </p>
+                <a href="readmore.html" class="readme" id="btn" target="_blank">Read more</a>
+            </div>
+         </section>
+
+         <!-- Services -->
+         <section class="services" id="services">
+            <h2 class="heading">My <span>Services</span></h2>
+            <div class="services-container">
+                <div class="services-box">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Full Stack Developer</h3>
+                    <p>Proficient in Core Java, Advanced Java, and full-stack development using HTML5, CSS3, Bootstrap, React.js, and MySQL. Experienced in building responsive web applications and managing databases. Skilled with tools like IntelliJ IDEA, Eclipse, MySQL Workbench, and VS Code for streamlined development workflows and efficient project execution.</p>
+                    <span><a href="#" class="button">Read more</a></span>
+                </div>
+                <div class="services-box">
+                    <i class="fa-solid fa-palette"></i>
+                    <h3>Web Developer</h3>
+                    <p>Proficient in front-end technologies including HTML5, CSS3, Bootstrap, and React.js for creating responsive and dynamic user interfaces. Skilled in using development tools like IntelliJ IDEA, Eclipse, and VS Code to streamline coding and project management.</p>
+                    <a href="#" class="button">Read more</a>
+                </div>
+                <div class="services-box">
+                    <i class="fa-brands fa-android"></i>
+                    <h3>Backend Developer</h3>
+                    <p>Proficient in Core and Advanced Java development, including OOP, multithreading, and JDBC. Skilled in MySQL database design, query optimization, and performance tuning. Proficient with tools like IntelliJ, Eclipse, MySQL Workbench, and VS Code to build scalable, efficient applications.</p>
+                    <a href="#" class="button">Read more</a>
+                </div>
+                
+            </div>
+         </section>
+
+ <!-- Portfolio -->
+ <section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Project</span></h2>
+
+    <div class="portfolio-container">
+
+
+        <div class="portfolio-box">
+            <img src="venda banner.png" alt="">
+            <div class="portfolio-layer">
+                <h4>Venda-Portfolio</h4>
+                <p>Project Description : Created a responsive portfolio website to showcase a collection of small interactive projects, including features like Form Validation, Unit Converter, Multiplication Table Generator, To-Do List, CURD application and Media Query responsive website. Provide a modern and clean interface for users to view projects, while ensuring compatibility across various screen sizes.
+                    Technologies Used: HTML5, CSS3, Bootstrap, JavaScript 
+                    </p>
+                <a href="https://vendathiru.github.io/Portfolio.com/" target="_blank">Link</a>
+            </div>
+        </div>   
+
+
+        <div class="portfolio-box">
+            <img src="Dentist.png" alt="">
+            <div class="portfolio-layer">
+                <h4>Dentist-Appointment</h4>
+                <p>Project Description </p>
+                <a href="https://vendathiru.github.io/Dentist-Appointment.com/" target="_blank">Link</a>
+            </div>
+        </div>
+
+
+        <div class="portfolio-box">
+            <img src="Bank application.png" alt="Banking application">
+            <div class="portfolio-layer">
+                <h4>Bank Application</h4>
+                <p>Project Description : Developed a banking application focused on database operations, including table creation, data storage, Deposit, withdraw and interaction using JDBC connectivity. Provide a functional application for managing banking transactions and customer data effectively.
+                    bank.accountmaster, bank.transaction
+                     1. Deposit  2. Withdraw  3. Balance Check  4. Generate Statement  5. Exit
+                    Technologies Used : Maven (pom.xml), MySQL, JDBC, IntelliJ IDEA
+                     Platform Used –IntelliJ IDEA
+                    </p>
+                <a href="https://github.com/VendaThiru/Bank_Application.com" target="_blank">Link</a>
+            </div>
+        </div>
+
+            <div class="portfolio-box">
+                <img src="texneutral.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>E-commerce TEXNEUTRAL</h4>
+                    <p>Project Description : Designed and developed a full-fledged e-commerce platform with features like product listing, user authentication, shopping cart functionality, and payment gateway integration.
+                        Technologies Used : HTML5, CSS3, JavaScript, Bootstrap
+                        1.E-commerce-TEXNEUTRAL Men's Cloth.
+                        Platform Used –VS Code 
+                        </p>
+                    <a href="https://vendathiru.github.io/TEXNEUTRAL-E-commerce.com/"target="_blank">Link</a>
+                </div>
+            </div>
+
+        
+            <div class="portfolio-box">
+                <img src="cara.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>E-commerce CARA</h4>
+                    <p>Project Description : Designed and developed a full-fledged e-commerce platform with features like product listing, user authentication, shopping cart functionality, and payment gateway integration. Media Query max-width:799px and 477px, it responsive e-commerce website.
+                        Technologies Used : HTML5, CSS3, JavaScript, Bootstrap
+                        2.E-commerce- CARA Both Responsive.
+                        Platform Used –VS Code
+                          </p>
+                    <a href="https://vendathiru.github.io/CARA-E-commerce.com/index.html"target="_blank">Link</a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="CURD.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>CURD Application</h4>
+                    <p>Project Description :  Developed a CRUD (Create, Read, Update, Delete) application using JavaScript with features to: 
+                        Add new data entries. 
+                        Edit and update existing data.
+                        Delete records.
+                        Display data dynamically on the user interface
+                        Mail Validation.
+                        DOM Library 
+                        Technologies Used : JavaScript,HTML5,CSS3    Platform Used –VS Code
+                         </p>
+                    <a href="https://vendathiru.github.io/CRUD-Application-Form.com/"target="_blank">Link</a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="employee.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Employee Management Project (React Js Project) </h4>
+                    <p>Project Description : Developed an Employee Management System using React.js to streamline employee data management like Add, edit, update, delete, and view employee details.  Fetch and sync data with APIs for real-time updates.
+                        REACT HOOKS: useState, useEffect, useRef, useNavigate, useParams, custom_API
+                        Library: Axios, components: Route Routes, Sweetalert  popup window
+                        Technologies Used :React JS, Vue JS
+                        Platform Used –VS Code
+                        </p>
+                    <a href="https://github.com/VendaThiru/React-Js-Employee_Managment_Project.com"target="_blank">Link</a>
+                </div>
+            </div>
+      
+
+                <div class="portfolio-box">
+                <img src="busbook.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Online Bus Ticket Booking</h4>
+                    <p>Project Description : Developed an online bus ticket booking platform that allows users to book tickets, make payments, register/login, and access customer support. The system also includes data storage for user and booking details.
+                        Technologies Used : Maven (pom.xml), MySQL, JDBC, IntelliJ IDEA
+                         Platform Used –IntelliJ IDEA
+                        </p>
+                    <a href="https://github.com/VendaThiru/Online-Bus-Ticket-Booking.com"target="_blank">Link</a>
+                </div>
+            </div>
+
+
+            <div class="portfolio-box">
+                <img src="Recipe Main Page.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Recipe Main Page</h4>
+                    <p>Project Description: The "Recipe Main Page" is a responsive web platform designed to showcase food details in an engaging and user-friendly manner. The page provides an intuitive interface that allows users to explore a variety of recipes, view food descriptions, and enjoy a seamless browsing experience across devices. With its responsive design, the platform ensures optimal usability on both desktop and mobile screens.                                                                                          Technologies Used: HTML5, CSS3, JavaScript
+                        Platform Used: VS Code </p>
+                    <a href="https://vendathiru.github.io/Recipe-Main-Page.com/"target="_blank">Link</a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="unitconverter (2).png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Unit Converter</h4>
+                    <p>Project Description:The "Unit Converter" is a responsive web application designed to perform real-time conversions between various units, such as length, weight, temperature, and more. The interface is intuitive, allowing users to select unit categories, input values, and instantly view results. Its responsive design ensures seamless performance on both desktop and mobile devices.
+                        Technologies Used:HTML5, CSS3, JavaScript
+                        Platform Used:VS Code </p>
+                    <a href="https://vendathiru.github.io/Unit-Converter.com/"target="_blank">Link</a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="calculator.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Calculator</h4>
+                    <p>Project Description:The "Calculator" is a responsive web application that performs basic arithmetic operations such as addition, subtraction, multiplication, and division. Designed with an intuitive interface, it allows users to input numbers and view results instantly. The application ensures smooth functionality across both desktop and mobile devices.
+                        Technologies Used:HTML5, CSS3, JavaScript
+                        Platform Used:VS Code  </p>
+                    <a href="https://vendathiru.github.io/Calculator.com/"target="_blank">Link</a>
+                </div>
+            </div>          
+
+
+            <div class="portfolio-box">
+                <img src="Multiplication (2).png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Multiplication</h4>
+                    <p>Project Description:The "Multiplication Table Generator" is a responsive web application that allows users to generate multiplication tables for any number. Users can input a number, and the application dynamically displays the corresponding table. With its clean design and real-time functionality, it ensures a smooth user experience across all devices.
+                        Technologies Used:HTML5, CSS3, JavaScript
+                        Platform Used:VS Code </p>
+                    <a href="https://vendathiru.github.io/Javascript_Multiplication.com/"target="_blank">Link</a>
+                </div>
+            </div>
+          
+
+    </div>
+ </section>
+
+        <!-- Contact -->
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me</span></h2>
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email Address">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Mobile Number">
+                    <input type="text" placeholder="Email Subject">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+        </section>
+
+        <!-- Footer  -->
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2024 by @vendacode | All Right Reserved.</p>
+            </div>
+            <div class="footer-iconTop">
+                <a href="#home"><i class="fa-solid fa-angle-up"></i> </a>
+            </div>
+        </footer>
+    
+     <!-- script -->
+    <script>
+            // toggle navbar
+            function toggleMenu() {
+                var navbar = document.getElementById("navbar");
+                navbar.classList.toggle("active");
+            }
+
+            // Typing Animation
+            const textElement = document.querySelector(".multiple-text");
+            const textArray = ["Full Stack Developer","Web Developer", "React JS Developer"];
+            let arrayIndex = 0, charIndex = 0, isDeleting = false;
+            const typingSpeed = 300, erasingSpeed = 500, delayBetweenWords = 500;
+
+            function typeEffect() {
+                const currentText = textArray[arrayIndex].slice(0, charIndex += isDeleting ? -1 : 1);
+                textElement.textContent = currentText;
+
+                if (!isDeleting && charIndex === textArray[arrayIndex].length) {
+                    isDeleting = true;
+                    setTimeout(typeEffect, delayBetweenWords);
+                } else if (isDeleting && charIndex === 0) {
+                    isDeleting = false;
+                    arrayIndex = (arrayIndex + 1) % textArray.length;
+                    setTimeout(typeEffect, typingSpeed);
+                } else {
+                    setTimeout(typeEffect, isDeleting ? erasingSpeed : typingSpeed);
+                }
+            }
+            document.addEventListener("DOMContentLoaded", () => setTimeout(typeEffect, typingSpeed));
+
+            // ScrollReveal configurations
+            ScrollReveal({ reset: true });
+            
+            ScrollReveal().reveal('.home-content', {
+                origin: 'top',
+                distance: '50px',
+                duration: 2000,
+                delay: 200,
+                easing: 'ease-in-out'
+            });
+
+            ScrollReveal().reveal('.home-img', {
+                origin: 'bottom',
+                distance: '50px',
+                duration: 2000,
+                delay: 400,
+                reset: true
+            });
+
+            ScrollReveal().reveal('.about-img', {
+                origin: 'left',
+                distance: '50px',
+                duration: 2000,
+                delay: 400,
+                reset: true
+            });
+
+            ScrollReveal().reveal('.about-content', {
+                origin: 'right',
+                distance: '50px',
+                duration: 2000,
+                delay: 400,
+                reset: true
+            });
+
+            ScrollReveal().reveal('.services-box', {
+                origin: 'bottom',
+                distance: '50px',
+                duration: 2000,
+                interval: 200,
+                reset: true
+            });
+
+            ScrollReveal().reveal('.portfolio-box', {
+                origin: 'bottom',
+                distance: '50px',
+                duration: 2000,
+                interval: 200,
+                reset: true
+            });
+
+            ScrollReveal().reveal('.contact form', {
+                origin: 'bottom',
+                distance: '50px',
+                duration: 2000,
+                delay: 400,
+                reset: true
+            });
+    </script>
+</body>
+</html>
